@@ -1,0 +1,205 @@
+/*
+ 	This stylesheet is prepared for provide styles to all forms in our website.and also provide some designs to display user details pages*/
+/* form styling */
+.lg-container{
+	max-width: 500px;
+	margin:10px auto;
+	padding:2px 5px;
+	padding-top: 5px;
+	border-width: 2px;
+	border-color: rgb(0,0,0);
+	border-radius: 10%;
+	border-style: solid;
+}
+.lg-container h1{
+	font-size:25px;
+	text-align:center;
+	color: rgb(0, 0, 0);
+	margin-top: 5px;
+	margin-bottom: 3px;
+}
+.lg-container button{
+
+	border-radius:10px;
+	padding: 10px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgb(0,0,0);
+}
+#lg-form{
+	min-width: 100px;
+	position: relative;
+}
+#lg-form label{
+	color:rgba(0,0,0,1);
+	font-size: 12px;
+	line-height: 15px;
+	font-weight: 500;
+}
+#lg-form input[type="text"],
+#lg-form input[type="email"],
+#lg-form select{
+	border:1px solid rgba(51,51,51,.5);
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:5px;
+	padding: 4px;
+	font-size: 14px;
+	line-height: 15px;
+	width: 100%;
+	text-align: left;
+}
+#lg-form input[type="file"]{
+	border:1px solid rgba(51,51,51,.5);
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:5px;
+	padding: 5px;
+	font-size: 10px;
+	line-height: 12px;
+	width: 100%;
+	height: 30px;
+	text-align: left;
+	margin:4px 0px;
+}
+#lg-form button{
+	font-size: 15px;
+	border:1px solid #000;
+	padding: 5px,3px;
+	border:1px solid rgba(51,51,51,.5);
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+
+	-webkit-box-shadow: 2px 1px 1px #aaa;
+	-moz-box-shadow: 2px 1px 1px #aaa;
+	box-shadow: 2px 1px 1px #aaa;
+	cursor:pointer;
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+#lg-form button:active{
+	-webkit-box-shadow: 0px 0px 1px #aaa;
+	-moz-box-shadow: 0px 0px 1px #aaa;
+	box-shadow: 0px 0px 1px #aaa;
+}
+#lg-form button:hover{
+	background:#f4f4f4;
+}
+.hr-set {
+    border-top:1px solid #000;
+		margin: 0px;
+}
+.message{
+	color: green;
+	font-size: 10px;
+	text-align: right;
+	margin: 3px;
+}
+.success{
+	color: green;
+	font-size: 12px;
+	text-align: left;
+	margin: 3px;
+}
+.error{
+	color:red;
+	margin: 4px;
+	padding: 0px;
+	font-size: 13px;
+	text-align: left;
+}
+.profile{
+  height: 100px;
+  width: 100px;
+  border: 2px solid blue;
+  border-radius: 10%;
+}
+#output{
+  display: none;
+}
+#display{
+	display: block;
+}
+/* form stylilng end*/
+
+/*department section styling*/
+/* department profile display pages stylings*/
+#dept-desc{
+  margin: 15px;
+  padding: 15px;
+  font-size: 20px;
+  border-color: rgb(0,0,0);
+  border-width: 2px;
+  max-height:300px;
+  min-height: 100px;
+  color: rgb(0, 0, 0);
+  border-style: solid;
+  text-align: center;
+}
+#dept-employees{
+	margin: 15px;
+  padding: 15px;
+  padding-bottom:250px;
+  font-size: 20px;
+  border-style: solid;
+  border-color: rgb(0,0,0);
+  border-width: 2px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  position: relative;
+}
+#dept-employees h1,#dept-desc h1{
+	color:rgb(0,0,0);
+	text-decoration: underline;
+}
+#dept-desc p{
+	color: rgb(51, 51, 255);
+}
+#dept-employees span{
+	color: rgba(122,155,45,1);
+	font-size: 15px;
+}
+#dept-employees span:hover{
+color: rgb(134, 45, 134);
+	cursor: pointer;
+}
+
+/* id card for displaying employees as a card in department*/
+.id-card{
+	background-color: rgb(0, 179, 179);
+	border-style:solid;
+	border-color:rgb(0,0,0);
+	border-width:2px;
+	height: 260px;
+	max-width: 280px;
+	min-width: 230px;
+	position:absolute;
+	display: none;
+	z-index: 1;
+	right: 150px;
+	text-align: center;
+
+}
+
+#dept-employees span:hover + div{
+	display: block;
+}
+.id-image{
+	margin-top: 5px;
+	border-radius: 100%;
+	margin-bottom: 10px;
+}
+.id-details{
+	font-size: 12px;
+	font-weight: 600;
+	color: rgb(77, 0, 77);
+}
+.id-details p{
+	padding-top: 1px;
+}
+.id-card h1{
+	color: rgb(64,63,55);
+	font-size: 15px;
+}

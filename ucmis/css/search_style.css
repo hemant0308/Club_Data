@@ -1,0 +1,67 @@
+.lg-container{
+	max-width: 500px;
+	margin:10px auto;
+	padding:2px 5px;
+	padding-top: 5px;
+	border-width: 2px;
+	border-color: rgb(0,0,0);
+	border-radius: 10%;
+	border-style: solid;
+}
+.lg-container h1{
+	font-size:25px;
+	text-align:center;
+	color: rgb(0, 0, 0);
+	margin-top: 5px;
+	margin-bottom: 3px;
+}
+.lg-container button{
+
+	border-radius:10px;
+	padding: 5px 20px;
+  margin: 15px 20px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgb(0,0,0);
+}
+#lg-form{
+	min-width: 100px;
+	position: relative;
+}
+#lg-form label{
+	color:rgba(0,0,0,1);
+	font-size: 20px;
+	line-height: 15px;
+	font-weight: 500;
+  padding: 10px;
+}
+#lg-form input[type="text"],
+#lg-form input[type="email"],
+#lg-form select{
+	border:1px solid rgba(51,51,51,.5);
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:5px;
+	padding: 4px;
+	font-size: 14px;
+	line-height: 20px;
+	width: 100%;
+	text-align: left;
+}
+.hr-set {
+    border-top:2px solid #000;
+		margin: 5px 0px;
+}
+.link2{
+	color: rgb(121,0,12);
+	font-size: 15px;
+	margin: 30px;
+	text-decoration: underline;
+	text-align: right;
+	width: 200px;
+}
+.link2:hover{
+	color: rgb(55, 55, 55);
+	font-weight: 800%;
+	cursor: pointer;
+}

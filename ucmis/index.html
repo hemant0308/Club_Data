@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Home</title>
+    <!-- BOOTSTRAP CORE STYLE CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <!-- CUSTOM STYLE CSS -->
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+
+    <!--  This section Describes the Home section of page  -->
+    <section id="home-sec">
+        <div class="overlay text-center">
+            <div class="col-sm-12 col-lg-12">
+                <div class="col-sm-3 col-lg-3">
+                    <img src="images/steel_plant_logo.png" alt="steel_plant_logo" id="logo">
+                </div>
+                <div class="col-sm-6 col-lg-6">
+                    <h1 >UCMIS</h1>
+  									<p>Ukku Club Members Information System</p>
+                </div>
+                <div class="col-sm-3 col-lg-3 date">
+                   <h3  id="date"></h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  End home section  -->
+    <!--service section start-->
+    <section id="services-sec">
+        <div class="container">
+          <center>
+            <div class="row text-center col-lg-12 col-sm-12" >
+              <div class="col-md-1 col-lg-1"></div>
+              <div class="col-md-4 col-lg-4">
+                <div class="icon-custom-1" onclick="window.location='member/index.php'">
+                <img src="images/employe_details.png" class="img-circle" height="100" width="100" alt="employee-details" id="image">
+                 <h3>Member Master</h3>
+               </div>
+             </div>
+             <div class="col-md-2 col-lg-2"></div>
+             <div class="col-md-4 col-lg-4">
+               <div class="icon-custom-1" onclick="window.location='department/index.php'">
+                 <img src="images/department_details.png" class="img-circle" height="100" width="100" alt="employee-details" id="image">
+               <h3>DepartMent Master </h3>
+              </div>
+             </div>
+           <div class="col-md-1 col-lg-1"></div>
+           </div>
+           <div class="row text-center col-lg-12 col-sm-12" >
+             <div class="col-md-1 col-lg-1"></div>
+             <div class="col-md-4 col-lg-4">
+               <div class="icon-custom-1"  onclick="window.location='report' ">
+               <img src="images/report.png" class="img-circle" height="100" width="100" alt="employee-details" id="image">
+                <h3>Report</h3>
+              </div>
+            </div>
+              <div class="col-md-2 col-lg-2"></div>
+            <div class="col-md-4 col-lg-4">
+              <div class="icon-custom-1 " onclick="window.location='restore-backup/index.php'">
+                <img src="images/backup.png" class="img-circle" height="100" width="100" alt="employee-details" id="image">
+              <h3>Backup & Restore</h3>
+             </div>
+            </div>
+            <div class="col-md-1 col-lg-1"></div>
+          </div>
+          </center>
+      </div>
+    </section>
+    <!--service section end-->
+     <!-- COPY TEXT SECTION END-->
+    <div class="copy-txt">
+         <div class="container">
+          <div class="row">
+            <div class="col-md-12 set-foot" >
+                &copy 2016 UCMIS | All rights reserved | Design by :
+            </div>
+          </div>
+         </div>
+    </div>
+    <!-- copy text section end-->
+    <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+    <!--JS to auto update time-->
+    <script type="text/javascript" src="js/date.js"></script>
+</body>
+</html>
